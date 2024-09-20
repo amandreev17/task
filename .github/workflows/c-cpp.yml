@@ -14,7 +14,7 @@ jobs:
           cd code
           cmake -B build
           cmake --build build
-          build/3sum.cpp
+          build/3sum
       
       - name: Test
         run: |
